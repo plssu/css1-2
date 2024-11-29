@@ -15,23 +15,7 @@
 }
 
 .sky {
-    display: flex;
-    background: url(image.png);
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-    gap: 16px;
-    width: 568px;
-    height: 48px;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 48px;
-    text-align: center;
-    color: #000000;
-    justify-content: center;
-    align-items: center;
-    flex: none;
-    flex-grow: 0;
+    top: 147px;
 }
 
 .image {
