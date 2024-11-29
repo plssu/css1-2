@@ -4,6 +4,7 @@
     width: 1237px;
     height: 86px;
     left: calc(50% - 1237px/2 - 0.5px);
+    padding: 5px;
     top: 24px;
     font-style: normal;
     font-weight: 700;
@@ -31,4 +32,13 @@
     align-items: center;
     flex: none;
     flex-grow: 0;
+}
+
+.image {
+    position: absolute;
+    width: 556px;
+    height: 347px;
+    left: 32px;
+    top: 700px;
+    background: url(image.png);
 }
