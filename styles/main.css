@@ -39,4 +39,85 @@
     top: 750px;
     font-size: large;
     border: 2px solid #CEA201;
+    background-color: white;
+    color: #CEA201;
+}
+
+h1 {
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    left: calc(50% - 1237px/2 - 0.5px);
+    padding: 5px;
+    top: 999px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 86px;
+    text-transform: uppercase;
+    width: 1237px;
+    height: 86px;
+    color: #000000;
+}
+
+.animals {
+    position: absolute;
+    width: 620px;
+    left: 330px;
+    top: 1100px;
+    text-align: center;
+    font-size: larger;
+}
+
+#works {
+    color: green;
+    position: absolute;
+    font-size: x-large;
+    left: 550px;
+    top: 1180px;
+}
+
+.oxygen {
+    position: absolute;
+    left: 420px;
+    top: 1230px;
+    font-size: larger;
+    color: #eb3bc5;
+}
+
+.butterflyimg {
+    position: absolute;
+    left: 420px;
+    top: 1350px;
+    image-resolution: 200px;
+    image-rendering: auto;
+}
+
+#where {
+    position: absolute;
+    left: 420px;
+    top: 2100px;
+}
+
+#water {
+    position: absolute;
+    left: 420px;
+    top: 2300px;
+}
+#end {
+    position: absolute;
+    text-align: right;
+    left: 420px;
+    top: 3300px;
+    width: 200px;
+    height: 32px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #CEA201;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
