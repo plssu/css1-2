@@ -14,15 +14,29 @@
     color: #000000;
 }
 
-.sky {
+.Night {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    position: absolute;
+    width: 568px;
+    height: 866px;
+    left: 55px;
     top: 147px;
 }
 
-.image {
+#button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    
+    gap: 10px;
     position: absolute;
-    width: 556px;
-    height: 347px;
-    left: 32px;
-    top: 700px;
-    background: url(image.png);
+    width: 177px;
+    height: 56px;
+    left: 25px;
+    top: 750px;
+    font-size: large;
+    border: 2px solid #CEA201;
 }
