@@ -104,10 +104,9 @@ h1 {
     left: 420px;
     top: 2300px;
 }
-#end {
+.end {
     position: absolute;
-    text-align: right;
-    left: 420px;
+    left: 980px;
     top: 3300px;
     width: 200px;
     height: 32px;
@@ -115,9 +114,6 @@ h1 {
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 32px;
-    color: #CEA201;
+    color: rgb(98, 119, 212);
     flex: none;
-    order: 0;
-    flex-grow: 0;
 }
