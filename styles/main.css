@@ -1,14 +1,13 @@
 .Articles {
-    text-align: center;
+    top: 24px;
     position: absolute;
     width: 1237px;
     height: 86px;
     left: calc(50% - 1237px/2 - 0.5px);
-    padding: 5px;
-    top: 24px;
+    font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 66px;
     line-height: 86px;
     text-transform: uppercase;
     color: #000000;
@@ -24,96 +23,95 @@
     width: 568px;
     height: 866px;
     left: 55px;
-    top: 147px;
+    top: 15px;
+}
+
+#Stary {
+    position: absolute;
+    top: 110px;
+    left: 55px;
+}
+
+#Stray-Night {
+    position: absolute;
+    top: 530px;
+    left: 230px;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+#p1 {
+    position: absolute;
+    top: 590px;
+    left: 55px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+#immersed {
+    position: absolute;
+    top: 655px;
+    left: 55px;
+    font-size: 15px;
+    line-height: 20px;
 }
 
 #button {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;    
-    gap: 10px;
     position: absolute;
+    top: 850px;
+    left: 55px;
     width: 177px;
-    height: 56px;
-    left: 25px;
-    top: 750px;
-    font-size: large;
-    border: 2px solid #CEA201;
+    height: 57px;
     background-color: white;
     color: #CEA201;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+    gap: 10px;
+    border: 2px solid #CEA201;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
-h1 {
-    flex-direction: column;
-    text-align: center;
+.MainofMagic {
     position: absolute;
-    left: calc(50% - 1237px/2 - 0.5px);
-    padding: 5px;
-    top: 999px;
+    left: 55px;
+    top: 980px;
+}
+
+#Magic {
+    height: 70px;
+    font-family: 'Lato';
     font-style: normal;
-    font-weight: 700;
-    font-size: 45px;
+    font-size: 66px;
     line-height: 86px;
     text-transform: uppercase;
-    width: 1237px;
-    height: 86px;
     color: #000000;
 }
 
 .animals {
     position: absolute;
-    width: 620px;
-    left: 330px;
-    top: 1100px;
-    text-align: center;
-    font-size: larger;
+    top: 120px;
+    width: 680px;
+    height: 20px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 21.51px;
+    line-height: 24px;
 }
 
 #works {
+    position: absolute;
+    top: 200px;
     color: green;
-    position: absolute;
-    font-size: x-large;
-    left: 550px;
-    top: 1180px;
 }
 
-.oxygen {
+#oxygen {
     position: absolute;
-    left: 420px;
-    top: 1230px;
-    font-size: larger;
-    color: #eb3bc5;
-}
-
-.butterflyimg {
-    position: absolute;
-    left: 420px;
-    top: 1350px;
-    image-resolution: 200px;
-    image-rendering: auto;
-}
-
-#where {
-    position: absolute;
-    left: 420px;
-    top: 2100px;
-}
-
-#water {
-    position: absolute;
-    left: 420px;
-    top: 2300px;
-}
-.end {
-    position: absolute;
-    left: 980px;
-    top: 3300px;
-    width: 200px;
-    height: 32px;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    color: rgb(98, 119, 212);
-    flex: none;
+    top: 240px;
+    height: 100px;
 }
