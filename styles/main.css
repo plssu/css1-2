@@ -1,39 +1,44 @@
-.Articles {
-    top: 24px;
-    position: absolute;
-    width: 1237px;
-    height: 86px;
-    left: calc(50% - 1237px/2 - 0.5px);
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 66px;
-    line-height: 86px;
-    text-transform: uppercase;
-    color: #000000;
+#divOne {
+    display: inline-block;
+    text-align: center;
+    width: 1289px;
+    height: 1243px;
 }
 
-.Night {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 32px;
-    position: absolute;
+#articles {
+    display: inline-block;
+    color: #000;
+    margin-top: 24px;
+    margin-left: 208px;
+    margin-right: 200px;
+    margin-bottom: 37px;
+    font-family: 'Lato';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#night {
+    display: block;
+    text-align: center;
+    margin-top: 0 auto;
+    margin-left: 55px;
     width: 568px;
-    height: 866px;
+    height: 788px;
     left: 55px;
     top: 15px;
 }
 
-#Stary {
-    position: absolute;
+#stary {
+    display: inline-block;
     top: 110px;
     left: 55px;
 }
 
-#Stray-Night {
-    position: absolute;
+#strayNight {
+    display: inline-block;
+    margin-top: 0;
     top: 530px;
     left: 230px;
     font-size: 40px;
@@ -41,15 +46,25 @@
 }
 
 #p1 {
-    position: absolute;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 16px;
+    width: 568px;
+    height: 70px;
     top: 590px;
     left: 55px;
-    font-size: 18px;
-    line-height: 20px;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 #immersed {
-    position: absolute;
+    display: inline-block;
+    padding-left: 20px;
+    color: #155EEF;
+    font-size: 20px;
     top: 655px;
     left: 55px;
     font-size: 15px;
@@ -57,30 +72,27 @@
 }
 
 #button {
-    position: absolute;
     top: 850px;
     left: 55px;
     width: 177px;
     height: 57px;
+    font-size: 20px;
+    text-align: center;
     background-color: white;
     color: #CEA201;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    display: block;
     align-items: center;
     padding: 12px 32px;
     border: 2px solid #CEA201;
-    flex: none;
 }
 
-.MainofMagic {
-    position: absolute;
+#mainOfMagic {
+    display: inline-block;
     left: 55px;
     top: 980px;
 }
 
-#Magic {
+#magic {
     height: 70px;
     font-family: 'Lato';
     font-style: normal;
@@ -90,7 +102,7 @@
     color: #000000;
 }
 
-.animals {
+#animals {
     position: absolute;
     top: 120px;
     width: 680px;
