@@ -70,11 +70,8 @@
     justify-content: center;
     align-items: center;
     padding: 12px 32px;
-    gap: 10px;
     border: 2px solid #CEA201;
     flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 
 .MainofMagic {
