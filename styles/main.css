@@ -2,7 +2,7 @@
     display: inline-block;
     text-align: center;
     width: 1289px;
-    height: 1243px;
+    height: 2362px;
 }
 
 #articles {
@@ -23,9 +23,10 @@
     display: block;
     text-align: center;
     margin-top: 0 auto;
+    margin-bottom: 72px;
     margin-left: 55px;
     width: 568px;
-    height: 788px;
+    height: 820px;
     left: 55px;
     top: 15px;
 }
@@ -78,6 +79,7 @@
     height: 57px;
     font-size: 20px;
     text-align: center;
+    margin-top: 32px;
     background-color: white;
     color: #CEA201;
     display: block;
@@ -87,40 +89,127 @@
 }
 
 #mainOfMagic {
-    display: inline-block;
+    display: block;
+    padding: 0px;
+    width: 950px;
+    height: 1156px;
     left: 55px;
-    top: 980px;
+    top: 1087px;
 }
 
 #magic {
     height: 70px;
     font-family: 'Lato';
     font-style: normal;
-    font-size: 66px;
+    font-size: 48px;
     line-height: 86px;
-    text-transform: uppercase;
     color: #000000;
+    margin-bottom: 16px;
 }
 
 #animals {
-    position: absolute;
+    display: inline-block;
+    margin-top: 0;
     top: 120px;
-    width: 680px;
-    height: 20px;
+    width: 950px;
+    height: 72px;
     font-family: 'Lato';
     font-style: normal;
-    font-size: 21.51px;
+    font-size: 28px;
     line-height: 24px;
+    color: #414651;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 24px;
 }
 
 #works {
-    position: absolute;
-    top: 200px;
-    color: green;
+    display: inline-block;
+    color: #00C76E;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 16px;
 }
 
 #oxygen {
-    position: absolute;
-    top: 240px;
-    height: 100px;
+    display: block;
+    color: #FF5DA3;
+    text-align: left;
+    margin-left: 288px;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+#butterflyimg {
+    display: block;
+    margin-left: 164px;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 24px;
+}
+
+#whereAndLi {
+    display: block;
+    background-color: #FFDEF0;
+    border: 6px solid #C11574;
+    width: 568px;
+    padding: 16px;
+    margin-left: 164px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+#where {
+    display: block;
+    margin-top: 16px;
+    text-align: left;
+    color: #414651;
+    font-family: 'Lato';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+#ul {
+    display: block;
+    text-align: left;
+}
+
+#liOne::marker {
+    font-size: 25px;
+}
+
+#liOne {
+    margin-bottom: 8px;
+}
+
+#liTwo::marker {
+    font-size: 25px;
+}
+
+#liTwo {
+    margin-bottom: 8px;
+}
+
+#liThree::marker {
+    font-size: 25px;
+}
+
+#liThree {
+    margin-bottom: 8px;
+}
+
+#wylisCxoveli {
+    display: block;
+    margin-left: 164px;
 }
