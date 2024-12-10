@@ -1,7 +1,7 @@
 #divOne {
     display: inline-block;
     text-align: center;
-    width: 1289px;
+    width: 1503px;
     height: 2362px;
 }
 
@@ -9,11 +9,10 @@
     display: inline-block;
     color: #000;
     margin-top: 24px;
-    margin-left: 208px;
-    margin-right: 200px;
+    margin: 0 auto;
     margin-bottom: 37px;
     font-family: 'Lato';
-    font-size: 40px;
+    font-size: 48px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
